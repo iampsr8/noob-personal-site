@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    color:#40514E;
+    font-size: 1.2rem;
+    line-height: 1.9;
+    text-align: center;
+    font-family: sans-serif;
+}
+.container{
+    background-color:rgb(228 250 252);
+    position: relative;
+    padding-top: 80px;
+}
+h1{
+    /* width: 30%;
+    margin: 0px auto; */
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /*1em = 16px = 100% */
+    /* em is inherited to that might cause trouble so use rem that stands for root em that is rem times 16px no matter what is inherited */
+    /* margin-top: 80px; */
+    margin: 80px auto 20px auto;
+    color:  rgb(67 159 159);
+    /* color:rgb(9 184 9); */
+}
+.pro{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: monospace; */
+    font-size: 2.4rem;
+    color:rgb(42 130 130);
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3rem;
+    color:  rgb(67 159 159);
+    
+}
+h3{
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    color: #11999E;
+}
+.cloud-bottom{
+    position: absolute;
+    left: 230px;
+    top: 370px;
+    height: 60px;
+}
+.cloud-top{
+    position: absolute;
+    right: 270px;
+    top: 90px;
+    height: 60px;
+}
+.mountain{
+    height: 400px;
+    /* width: 52%; */
+}
+.profile{
+    margin:100px auto;
+}
+.profile-pic{
+    width: 25%;
+}
+.profile-para{
+    width: 25%;
+    margin:0 auto;
+}
+.code-icon{
+    width: 25%;
+    float:left;
+    /* padding: 30px; */
+    margin-right: 40px;
+}
+.tech-icon{
+    width: 25%;
+    float:right;
+    /* padding:30px; */
+    margin-left: 30px;
+}
+a{
+    color: #0a6568;
+    text-decoration: none;
+    margin:8px;
+}
+a:hover{
+    color:white;
+}
+.contact-me{
+    width: 62%;
+    margin: 100px auto;
+}
+.programmer{
+    font-weight: normal;
+}
+.skill-row{
+    width:60%;
+    margin:100px auto;
+    text-align: left;
+}
+/* .skill-row p{
+    line-height: 1.9;
+} */
+.dots{
+    font-size: 4rem;
+    /* font-family: sans-serif; */
+    color: #EAF6F6;
+}
+.bottom-container{
+    background-color:rgb(122 203 211);
+    padding: 45px 0 27px;
+    margin-top: 100px;
+}
+hr{
+    border:dotted #bababa 6px;
+    border-bottom: none;
+    width: 4%;
+}
+.contact-para{
+    text-align: justify;
+}
+.btn{
+    padding: 14px 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    border-radius: 55px;
+    font-size: 19px;
+    width: 25%;
+    background-color: #111111;
+}
+.btn:hover{
+    /* width:30%; */
+    font-size: 20px;
+    /* padding: 13px 0px; */
+}
+.last{
+    margin: auto auto 50px auto;
+}
+.psr{
+    color:black;
+    font-size: 1rem;
+}

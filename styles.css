@@ -81,9 +81,12 @@ a{
     color: #0a6568;
     text-decoration: none;
     margin:8px;
+    margin: 20px;
+    font-size: 28px;
 }
 a:hover{
-    color:white;
+    color:black;
+    
 }
 .contact-me{
     width: 62%;
